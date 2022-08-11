@@ -29,7 +29,9 @@ const Home: NextPage = () => {
       <main className="bg-black/90 container mx-auto grow">
         <div className="navbar sticky top-0 z-30 bg-red-900/90">
           <div className="flex-1">
-            <a className="btn btn-ghost text-xl normal-case">Portfolio</a>
+            <a className="btn btn-ghost text-xl normal-case" href="#">
+              Portfolio
+            </a>
           </div>
           <div className="flex-none">
             <ul className="menu menu-horizontal p-0">
