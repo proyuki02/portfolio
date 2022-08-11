@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+section {
+  display: block;
+  padding-top: 100px;
+  margin-top: -100px;
+  margin-bottom: 48px;
+}

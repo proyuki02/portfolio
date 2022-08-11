@@ -14,11 +14,17 @@ npm run dev
 npx create-next-app@latest portfolio --ts --use-npm
 
 # @see: https://tailwindcss.com/docs/guides/nextjs
-npm install -D tailwindcss postcss autoprefixer
+npm i -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 
 # @see: https://zenn.dev/nakaatsu/articles/67ee1bd74f2f8b
-npm install -D eslint-plugin-tailwindcss
+npm i -D eslint-plugin-tailwindcss
+
+# @see: https://daisyui.com/docs/install/
+npm i daisyui
+
+#
+npm i -D prettier eslint-plugin-prettier eslint-config-prettier
 ```
 
 ---
