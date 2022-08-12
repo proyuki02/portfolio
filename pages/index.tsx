@@ -50,7 +50,7 @@ const Home: NextPage = () => {
         </div>
         <div className="p-8">
           <section id="prefile">
-            <div className="card lg:card-side bg-base-100 shadow-xl">
+            <div className="card lg:card-side bg-base-100 shadow-xl pt-8 lg:pt-0">
               <figure>
                 <img
                   src="/image/photo01.jpg"
@@ -110,7 +110,7 @@ const Home: NextPage = () => {
             <h2 className="text-3xl font-bold mb-4">Software</h2>
             <div>
               <div>
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card max-w-md bg-base-100 shadow-xl">
                   <figure>
                     <img
                       src="/image/whitebord.png"
@@ -118,9 +118,9 @@ const Home: NextPage = () => {
                       className="object-contain h-48"
                     />
                   </figure>
-                  <div className="card-body">
+                  <div className="card-body p-4">
                     <h2 className="card-title">Whitebord</h2>
-                    <p>レトロスペクティブの為に開発したホワイトボードです</p>
+                    <p>レトロスペクティブ専用のホワイトボード</p>
                     <div className="card-actions justify-center mt-4">
                       <label
                         htmlFor="my-modal"
@@ -144,15 +144,24 @@ const Home: NextPage = () => {
                           <img
                             src="/image/whitebord.png"
                             alt="Whitebord"
-                            className="object-contain h-92"
+                            className="object-cover w-fit"
                           />
                           <p className="py-4">
-                            レトロスペクティブで使用するために開発しました。細部に拘ってしまうのを防ぐため、線を細くし過ぎないことや余計な機能を付けないように注意しました。
+                            レトロスペクティブに使用するために開発しました。議題に集中できるようにシンプルな機能群、キャンパスサイズ、ペンの太さなどに拘っています。
                             <br />
                             開発には Express / Socket.IO / Redis
-                            を使用しています。
+                            を使用しました。
                           </p>
                           <div className="modal-action">
+                            <a
+                              role="button"
+                              className="btn btn-md gap-4 glass normal-case"
+                              href="https://proyuki02-whiteboard.glitch.me/"
+                              target="_blank"
+                            >
+                              <img src="/image/demo.svg" width={24} />
+                              Demo
+                            </a>
                             <a
                               role="button"
                               className="btn btn-md gap-4 glass normal-case"
