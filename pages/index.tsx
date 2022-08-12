@@ -1,6 +1,7 @@
-import type { NextPage } from "next";
 import Head from "next/head";
-// import { useEffect } from "react";
+import { HeaderLink } from "../components/header-link";
+import { SnsLinkButton } from "../components/sns-link-button";
+import { SoftwareCard } from "../components/software-card";
 
 function getAge(year: number, month: number, date: number) {
   const today = new Date();
@@ -10,15 +11,7 @@ function getAge(year: number, month: number, date: number) {
 }
 const age = getAge(1981, 1, 10);
 
-const Home: NextPage = () => {
-  // useEffect(() => {
-  //   const f = async () => {
-  //     const res = await fetch("/api/hello").then((res) => res.json());
-  //     console.log(res);
-  //   };
-  //   f();
-  // }, []);
-
+export default () => {
   return (
     <div className="">
       <Head>
@@ -35,16 +28,8 @@ const Home: NextPage = () => {
           </div>
           <div className="flex-none">
             <ul className="menu menu-horizontal p-0">
-              <li>
-                <a href="#prefile" className="active:bg-red-200/20">
-                  Prefile
-                </a>
-              </li>
-              <li>
-                <a href="#software" className="active:bg-red-200/20">
-                  Software
-                </a>
-              </li>
+              <HeaderLink label="Prefile" href="#prefile" />
+              <HeaderLink label="Software" href="#software" />
             </ul>
           </div>
         </div>
@@ -69,124 +54,39 @@ const Home: NextPage = () => {
                   <li>現在地: 宮城県 仙台市</li>
                 </ul>
                 <div className="card-actions items-center gap-x-4">
-                  <div>
-                    <a
-                      role="button"
-                      className="btn btn-md gap-4 glass normal-case w-40"
-                      href="https://github.com/proyuki02"
-                      target="_blank"
-                    >
-                      <img src="/image/github.png" width={24} />
-                      GitHub
-                    </a>
-                  </div>
-                  <div>
-                    <a
-                      role="button"
-                      className="btn btn-md gap-4 glass normal-case w-40"
-                      href="https://twitter.com/proyuki02"
-                      target="_blank"
-                    >
-                      <img src="/image/twitter.png" width={24} />
-                      Twitter
-                    </a>
-                  </div>
-                  <div>
-                    <a
-                      role="button"
-                      className="btn btn-md gap-4 glass normal-case w-40"
-                      href="https://qiita.com/proyuki02"
-                      target="_blank"
-                    >
-                      <img src="/image/qiita.png" width={24} />
-                      Qiita
-                    </a>
-                  </div>
+                  <SnsLinkButton
+                    label="GitHub"
+                    href="https://github.com/proyuki02"
+                    src="/image/github.png"
+                  />
+                  <SnsLinkButton
+                    label="Twitter"
+                    href="https://twitter.com/proyuki02"
+                    src="/image/twitter.png"
+                  />
+                  <SnsLinkButton
+                    label="Qiita"
+                    href="https://qiita.com/proyuki02"
+                    src="/image/qiita.png"
+                  />
                 </div>
               </div>
             </div>
           </section>
           <section id="software">
             <h2 className="text-3xl font-bold mb-4">Software</h2>
-            <div>
-              <div>
-                <div className="card max-w-md bg-base-100 shadow-xl">
-                  <figure>
-                    <img
-                      src="/image/whitebord.png"
-                      alt="Whitebord"
-                      className="object-contain h-48"
-                    />
-                  </figure>
-                  <div className="card-body p-4">
-                    <h2 className="card-title">Whitebord</h2>
-                    <p>レトロスペクティブ専用のホワイトボード</p>
-                    <div className="card-actions justify-center mt-4">
-                      <label
-                        htmlFor="my-modal"
-                        className="btn btn-wide btn-primary modal-button"
-                      >
-                        OPEN
-                      </label>
-                      <input
-                        type="checkbox"
-                        id="my-modal"
-                        className="modal-toggle"
-                      />
-                      <label
-                        htmlFor="my-modal"
-                        className="modal cursor-pointer"
-                      >
-                        <label
-                          className="modal-box relative w-11/12 max-w-5xl"
-                          htmlFor=""
-                        >
-                          <img
-                            src="/image/whitebord.png"
-                            alt="Whitebord"
-                            className="object-cover w-fit"
-                          />
-                          <p className="py-4">
-                            レトロスペクティブに使用するために開発しました。議題に集中できるようにシンプルな機能群、キャンパスサイズ、ペンの太さなどに拘っています。
-                            <br />
-                            開発には Express / Socket.IO / Redis
-                            を使用しました。
-                          </p>
-                          <div className="modal-action">
-                            <div>
-                              <a
-                                role="button"
-                                className="btn btn-md gap-2 glass normal-case whitespace-nowrap"
-                                href="https://proyuki02-whiteboard.glitch.me/"
-                                target="_blank"
-                              >
-                                <img src="/image/demo.svg" width={24} />
-                                Demo
-                              </a>
-                            </div>
-                            <div>
-                              <a
-                                role="button"
-                                className="btn btn-md gap-2 glass normal-case whitespace-nowrap"
-                                href="https://github.com/proyuki02/whiteboard"
-                                target="_blank"
-                              >
-                                <img src="/image/github.png" width={24} />
-                                GitHub
-                              </a>
-                            </div>
-                            <div>
-                              <label htmlFor="my-modal" className="btn">
-                                Close
-                              </label>
-                            </div>
-                          </div>
-                        </label>
-                      </label>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div className="grid gap-8 lg:grid-cols-3">
+              <SoftwareCard
+                name="Whitebord"
+                imageSrc="/image/whitebord.png"
+                summary="レトロスペクティブ専用のホワイトボード"
+                demoUrl="https://proyuki02-whiteboard.glitch.me/"
+                githubUrl="https://github.com/proyuki02/whiteboard/"
+              >
+                レトロスペクティブに使用するために開発しました。議題に集中できるようにシンプルな機能群、キャンパスサイズ、ペンの太さなどに拘っています。
+                <br />
+                開発には Express / Socket.IO / Redis を使用しました。
+              </SoftwareCard>
             </div>
           </section>
         </div>
@@ -199,5 +99,3 @@ const Home: NextPage = () => {
     </div>
   );
 };
-
-export default Home;
