@@ -153,27 +153,33 @@ const Home: NextPage = () => {
                             を使用しました。
                           </p>
                           <div className="modal-action">
-                            <a
-                              role="button"
-                              className="btn btn-md gap-4 glass normal-case"
-                              href="https://proyuki02-whiteboard.glitch.me/"
-                              target="_blank"
-                            >
-                              <img src="/image/demo.svg" width={24} />
-                              Demo
-                            </a>
-                            <a
-                              role="button"
-                              className="btn btn-md gap-4 glass normal-case"
-                              href="https://github.com/proyuki02/whiteboard"
-                              target="_blank"
-                            >
-                              <img src="/image/github.png" width={24} />
-                              GitHub
-                            </a>
-                            <label htmlFor="my-modal" className="btn">
-                              Close
-                            </label>
+                            <div>
+                              <a
+                                role="button"
+                                className="btn btn-md gap-2 glass normal-case whitespace-nowrap"
+                                href="https://proyuki02-whiteboard.glitch.me/"
+                                target="_blank"
+                              >
+                                <img src="/image/demo.svg" width={24} />
+                                Demo
+                              </a>
+                            </div>
+                            <div>
+                              <a
+                                role="button"
+                                className="btn btn-md gap-2 glass normal-case whitespace-nowrap"
+                                href="https://github.com/proyuki02/whiteboard"
+                                target="_blank"
+                              >
+                                <img src="/image/github.png" width={24} />
+                                GitHub
+                              </a>
+                            </div>
+                            <div>
+                              <label htmlFor="my-modal" className="btn">
+                                Close
+                              </label>
+                            </div>
                           </div>
                         </label>
                       </label>
