@@ -31,5 +31,5 @@ npm i -D eslint-plugin-tailwindcss
 npm i daisyui
 
 # formatter
-npm i -D prettier eslint-plugin-prettier eslint-config-prettier
+npm i -D eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser prettier eslint-config-prettier eslint-plugin-prettier
 ```
