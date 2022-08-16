@@ -1,4 +1,5 @@
 interface Props {
+  softwareId: string;
   name: string;
   imageSrc: string;
   summary: string;
@@ -8,7 +9,7 @@ interface Props {
 }
 
 export const SoftwareCard = (props: Props) => {
-  const modalId = "software-" + props.name.toLowerCase().replaceAll(" ", "-");
+  const modalId = "software-" + props.softwareId;
   return (
     <div>
       <div>
@@ -17,7 +18,7 @@ export const SoftwareCard = (props: Props) => {
             <img
               src={props.imageSrc}
               alt={props.name}
-              className="object-contain h-48"
+              className="object-contain"
             />
           </figure>
           <div className="card-body p-4">
@@ -39,7 +40,7 @@ export const SoftwareCard = (props: Props) => {
                   <img
                     src={props.imageSrc}
                     alt={props.name}
-                    className="object-cover w-fit"
+                    className="object-contain w-full"
                   />
                   <p className="py-4">{props.children}</p>
                   <div className="modal-action">

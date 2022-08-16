@@ -77,15 +77,50 @@ export default () => {
             <h2 className="text-3xl font-bold mb-4">Software</h2>
             <div className="grid gap-8 lg:grid-cols-3">
               <SoftwareCard
+                softwareId="whitebord"
                 name="Whitebord"
                 imageSrc="/image/whitebord.png"
                 summary="レトロスペクティブ専用のホワイトボード"
                 demoUrl="https://proyuki02-whiteboard.glitch.me/"
                 githubUrl="https://github.com/proyuki02/whiteboard/"
               >
-                レトロスペクティブに使用するために開発しました。議題に集中できるようにシンプルな機能群、キャンパスサイズ、ペンの太さなどに拘っています。
+                レトロスペクティブに使用するために開発しました。議題に集中できるように、シンプルな機能群、キャンパスサイズ、ペンの太さなどにこだわりました。
                 <br />
                 開発には Express / Socket.IO / Redis を使用しました。
+              </SoftwareCard>
+              <SoftwareCard
+                softwareId="dpo"
+                name="Delegation Poker Online"
+                imageSrc="/image/delegation-poker-online.png"
+                summary="権限移譲を促進するブラウザゲーム"
+                demoUrl="https://delegation-poker-online-demo.web.app/"
+                githubUrl="https://github.com/proyuki02/delegation-poker-online/"
+              >
+                権限移譲を促進するために開発しました。デリゲーションポーカーはマネジメント3.0でも紹介されているポピュラーなゲームです。
+                <br />
+                開発には Firebase / React を使用しました。
+              </SoftwareCard>
+              <SoftwareCard
+                softwareId="forward-proxy"
+                name="Forward Proxy"
+                imageSrc="/image/forward-proxy.png"
+                summary="ローカルPCで稼働するプロキシサーバー"
+                githubUrl="https://github.com/proyuki02/forward-proxy/"
+              >
+                在宅ワーク時に開発サーバーのサイトを実機検証するために開発しました。スマホからVPNに接続したPCを経由して開発サーバーにアクセスします。
+                <br />
+                開発には Electron を使用しました。
+              </SoftwareCard>
+              <SoftwareCard
+                softwareId="rest-timer"
+                name="Rest Timer"
+                imageSrc="/image/rest-timer.png"
+                summary="全画面で定時をお知らせする常駐アプリケーション"
+                githubUrl="https://github.com/proyuki02/rest-timer/"
+              >
+                集中していても休み時間や定時に気づけるように開発しました。全画面で最前列に表示されるのがポイントです。3分前からの予告表示もあります。
+                <br />
+                開発には Electron を使用しました。
               </SoftwareCard>
             </div>
           </section>
