@@ -35,7 +35,7 @@ export const Works = () => {
           Visual C++ / ASP / VBA / SQL Server
         </WorksCardItemTech>
       </WorksCard>
-      <WorksCard summary="書籍販売サイト制作･運営">
+      <WorksCard summary="書籍販売サイトの制作･運営">
         <WorksCardItemSpan>2004 - 2006</WorksCardItemSpan>
         <WorksCardItemJob>
           要件定義 / 設計 / 実装 / テスト / 運用
@@ -44,7 +44,7 @@ export const Works = () => {
           Perl / Dreamwaver / Photoshop / Illustrator / Flash
         </WorksCardItemTech>
       </WorksCard>
-      <WorksCard summary="携帯公式コンテンツ制作･運営">
+      <WorksCard summary="携帯公式コンテンツの制作･運営">
         <WorksCardItemSpan>2005 - 2008</WorksCardItemSpan>
         <WorksCardItemJob>設計 / 実装 / テスト / 運用</WorksCardItemJob>
         <WorksCardItemTech>
