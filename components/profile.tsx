@@ -1,4 +1,4 @@
-import { SnsLinkButton } from "../components/sns-link-button";
+import { SnsLinkButton } from "./sns-link-button";
 
 function getAge(year: number, month: number, date: number) {
   const today = new Date();

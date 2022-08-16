@@ -1,4 +1,4 @@
-import { HeaderLink } from "../components/header-link";
+import { HeaderLink } from "./header-link";
 
 export const Header = () => {
   return (

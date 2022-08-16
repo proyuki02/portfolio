@@ -1,9 +1,9 @@
 import Head from "next/head";
-import { Header } from "./header";
-import { Footer } from "./footer";
-import { Profile } from "./profile";
-import { Software } from "./software";
-import { Works } from "./works";
+import { Header } from "../components/header";
+import { Footer } from "../components/footer";
+import { Profile } from "../components/profile";
+import { Software } from "../components/software";
+import { Works } from "../components/works";
 import { NextPage } from "next";
 
 const Home: NextPage = () => {
