@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Label } from "../components/label";
 import { SoftwareCard } from "../components/software-card";
 
-export default () => {
+export const Software = () => {
   return (
     <section id="software">
       <h2 className="text-3xl font-bold mb-4">

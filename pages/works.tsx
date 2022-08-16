@@ -7,7 +7,7 @@ import {
   WorksCardItemTech,
 } from "../components/works-card-item";
 
-export default () => {
+export const Works = () => {
   return (
     <section id="works">
       <h2 className="text-3xl font-bold mb-4">

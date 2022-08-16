@@ -1,9 +1,9 @@
 import Head from "next/head";
-import { Footer } from "./footer";
 import { Header } from "./header";
+import { Footer } from "./footer";
 import { Profile } from "./profile";
-import Software from "./software";
-import Works from "./works";
+import { Software } from "./software";
+import { Works } from "./works";
 
 export default () => {
   return (
