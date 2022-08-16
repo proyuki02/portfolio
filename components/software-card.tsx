@@ -1,9 +1,11 @@
+import { ReactNode } from "react";
+
 interface Props {
   softwareId: string;
   name: string;
   imageSrc: string;
   summary: string;
-  children: any;
+  children: ReactNode;
   demoUrl?: string;
   githubUrl?: string;
 }
@@ -13,7 +15,7 @@ export const SoftwareCard = (props: Props) => {
   return (
     <div>
       <div>
-        <div className="card max-full bg-base-100 shadow-xl">
+        <div className="card bg-base-100 shadow-xl">
           <figure>
             <img
               src={props.imageSrc}
@@ -24,11 +26,8 @@ export const SoftwareCard = (props: Props) => {
           <div className="card-body p-4">
             <h2 className="card-title">{props.name}</h2>
             <p>{props.summary}</p>
-            <div className="card-actions justify-center mt-4">
-              <label
-                htmlFor={modalId}
-                className="btn btn-wide btn-primary modal-button"
-              >
+            <div className="card-actions mt-4 justify-center">
+              <label htmlFor={modalId} className="btn btn-primary btn-wide">
                 OPEN
               </label>
               <input type="checkbox" id={modalId} className="modal-toggle" />
@@ -40,7 +39,7 @@ export const SoftwareCard = (props: Props) => {
                   <img
                     src={props.imageSrc}
                     alt={props.name}
-                    className="object-contain w-full"
+                    className="w-full object-contain"
                   />
                   <p className="py-4">{props.children}</p>
                   <div className="modal-action">
@@ -79,11 +78,12 @@ const ActionButton = (props: { label: string; href: string; src: string }) => {
     <div>
       <a
         role="button"
-        className="btn btn-md gap-2 glass normal-case whitespace-nowrap"
+        className="btn glass btn-md gap-2 whitespace-nowrap normal-case"
         href={props.href}
         target="_blank"
+        rel="noreferrer"
       >
-        <img src={props.src} width={24} />
+        <img src={props.src} width={24} alt="" />
         {props.label}
       </a>
     </div>

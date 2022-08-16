@@ -4,8 +4,9 @@ import { Footer } from "./footer";
 import { Profile } from "./profile";
 import { Software } from "./software";
 import { Works } from "./works";
+import { NextPage } from "next";
 
-export default () => {
+const Home: NextPage = () => {
   return (
     <div>
       <Head>
@@ -13,7 +14,7 @@ export default () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-black/90 container mx-auto grow">
+      <main className="container mx-auto grow bg-black/90">
         <Header />
         <div className="p-8 pb-0">
           <Profile />
@@ -25,3 +26,5 @@ export default () => {
     </div>
   );
 };
+
+export default Home;

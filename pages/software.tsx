@@ -6,11 +6,11 @@ import { SoftwareCard } from "../components/software-card";
 export const Software = () => {
   return (
     <section id="software">
-      <h2 className="text-3xl font-bold mb-4">
+      <h2 className="mb-4 text-3xl font-bold">
         <FontAwesomeIcon
           icon={faLaptopCode}
           height="1em"
-          className="inline-block mr-2"
+          className="mr-2 inline-block"
         />
         Software
       </h2>

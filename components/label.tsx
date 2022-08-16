@@ -1,10 +1,12 @@
+import { ReactNode } from "react";
+
 interface Props {
-  children: any;
+  children: ReactNode;
 }
 
 export const Label = (props: Props) => {
   return (
-    <span className="badge badge-secondary p-2 mr-2 w-20">
+    <span className="badge badge-secondary mr-2 w-20 p-2">
       {props.children}
     </span>
   );

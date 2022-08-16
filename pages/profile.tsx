@@ -11,7 +11,7 @@ const age = getAge(1981, 1, 10);
 export const Profile = () => {
   return (
     <section id="profile">
-      <div className="card lg:card-side bg-base-100 shadow-xl pt-8 lg:pt-0">
+      <div className="card bg-base-100 pt-8 shadow-xl lg:card-side lg:pt-0">
         <figure>
           <img src="/image/photo01.jpg" alt="Kazuyuki Tamura" width={250} />
         </figure>
