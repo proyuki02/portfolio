@@ -12,3 +12,15 @@ export const WorksCardItem = (props: Props) => {
     </p>
   );
 };
+
+export const WorksCardItemSpan = (props: { children: any }) => {
+  return <WorksCardItem label="期間">{props.children}</WorksCardItem>;
+};
+
+export const WorksCardItemJob = (props: { children: any }) => {
+  return <WorksCardItem label="主な業務">{props.children}</WorksCardItem>;
+};
+
+export const WorksCardItemTech = (props: { children: any }) => {
+  return <WorksCardItem label="使用技術">{props.children}</WorksCardItem>;
+};
