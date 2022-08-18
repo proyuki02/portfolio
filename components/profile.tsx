@@ -27,14 +27,14 @@ export const Profile = () => {
           </ul>
           <div className="card-actions items-center gap-x-4">
             <SnsLinkButton
-              label="GitHub"
-              href="https://github.com/proyuki02"
-              src="/image/github.png"
-            />
-            <SnsLinkButton
               label="Twitter"
               href="https://twitter.com/proyuki02"
               src="/image/twitter.png"
+            />
+            <SnsLinkButton
+              label="GitHub"
+              href="https://github.com/proyuki02"
+              src="/image/github.png"
             />
             <SnsLinkButton
               label="Qiita"

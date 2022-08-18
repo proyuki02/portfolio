@@ -2,7 +2,7 @@ import { HeaderLink } from "./header-link";
 
 export const Header = () => {
   return (
-    <div className="navbar sticky top-0 z-30 bg-red-900/90">
+    <div className="navbar sticky top-0 z-30 bg-rose-700/70 text-white">
       <div className="flex-1">
         <a className="btn btn-ghost text-xl normal-case" href="#">
           Portfolio
