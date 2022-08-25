@@ -98,7 +98,7 @@ export const Works = () => {
       <WorksCard summary="店舗評価システムの新規開発">
         <WorksCardItemSpan>2016 - 2018</WorksCardItemSpan>
         <WorksCardItemJob>
-          設計 / 実装 / テスト / 運用 / 開発環境整備
+          プロトタイピング / 設計 / 実装 / テスト / 運用 / 開発環境整備
         </WorksCardItemJob>
         <WorksCardItemTech>
           React / Flow / Redux / Java / Spring / Swagger / Bitbucket / Jenkins /
@@ -109,7 +109,7 @@ export const Works = () => {
       <WorksCard summary="顧客管理システムの新規開発">
         <WorksCardItemSpan>2018 - 2022</WorksCardItemSpan>
         <WorksCardItemJob>
-          設計 / 実装 / テスト / 運用 / 開発環境整備
+          プロトタイピング / 設計 / 実装 / テスト / 運用 / 開発環境整備
         </WorksCardItemJob>
         <WorksCardItemTech>
           TypeScript / React / MobX / Express / Swagger / GitHub Enterprise /

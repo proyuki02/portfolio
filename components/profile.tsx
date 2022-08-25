@@ -41,6 +41,11 @@ export const Profile = () => {
               href="https://qiita.com/proyuki02"
               src="/image/qiita.png"
             />
+            <SnsLinkButton
+              label="Zenn"
+              href="https://zenn.dev/proyuki02"
+              src="/image/zenn.svg"
+            />
           </div>
         </div>
       </div>
