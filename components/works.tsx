@@ -77,7 +77,7 @@ export const Works = () => {
           PHP / Symfony / Apache / JavaScript / MySQL
         </WorksCardItemTech>
       </WorksCard>
-      <WorksCard summary="球団ファンサイトの機能開発">
+      <WorksCard summary="ファンサイトの機能開発">
         <WorksCardItemSpan>2009 - 2010</WorksCardItemSpan>
         <WorksCardItemJob>詳細設計 / 実装 / 単体テスト / 運用</WorksCardItemJob>
         <WorksCardItemTech>
