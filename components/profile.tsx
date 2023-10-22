@@ -25,7 +25,7 @@ export const Profile = () => {
             <li>出身地: 熊本県 熊本市</li>
             <li>現在地: 宮城県 仙台市</li>
           </ul>
-          <div className="card-actions items-center gap-x-4">
+          <div className="card-actions items-center gap-x-2">
             <SnsLinkButton
               label="Twitter"
               href="https://twitter.com/proyuki02"

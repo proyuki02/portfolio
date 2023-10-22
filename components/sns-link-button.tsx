@@ -9,7 +9,7 @@ export const SnsLinkButton = (props: Props) => {
     <div>
       <a
         role="button"
-        className="btn glass btn-md w-40 gap-4 normal-case"
+        className="btn glass btn-md w-36 gap-2 rounded-2xl normal-case"
         href={props.href}
         target="_blank"
         rel="noreferrer"

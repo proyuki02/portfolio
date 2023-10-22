@@ -27,8 +27,8 @@ export const SoftwareCard = (props: Props) => {
             <h2 className="card-title">{props.name}</h2>
             <p>{props.summary}</p>
             <div className="card-actions mt-4 justify-center">
-              <label htmlFor={modalId} className="btn btn-primary btn-wide">
-                OPEN
+              <label htmlFor={modalId} className="btn btn-wide rounded-2xl">
+                詳細を表示
               </label>
               <input type="checkbox" id={modalId} className="modal-toggle" />
               <label htmlFor={modalId} className="modal cursor-pointer">
@@ -58,8 +58,8 @@ export const SoftwareCard = (props: Props) => {
                       />
                     ) : null}
                     <div>
-                      <label htmlFor={modalId} className="btn">
-                        CLOSE
+                      <label htmlFor={modalId} className="btn rounded-2xl">
+                        閉じる
                       </label>
                     </div>
                   </div>
@@ -78,7 +78,7 @@ const ActionButton = (props: { label: string; href: string; src: string }) => {
     <div>
       <a
         role="button"
-        className="btn glass btn-md gap-2 whitespace-nowrap normal-case"
+        className="btn glass btn-md gap-2 whitespace-nowrap rounded-2xl normal-case"
         href={props.href}
         target="_blank"
         rel="noreferrer"
