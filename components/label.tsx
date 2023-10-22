@@ -6,7 +6,7 @@ interface Props {
 
 export const Label = (props: Props) => {
   return (
-    <span className="badge bg-zinc-700 border-0 mr-2 w-20 p-3">
+    <span className="badge mr-2 w-20 border-0 bg-zinc-700 p-3">
       {props.children}
     </span>
   );

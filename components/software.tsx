@@ -3,6 +3,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Label } from "../components/label";
 import { SoftwareCard } from "../components/software-card";
 
+const UsedTech = () => (
+  <>
+    <div style={{ height: 8 }} />
+    <Label>使用技術</Label>
+  </>
+);
+
 export const Software = () => {
   return (
     <section id="software">
@@ -25,7 +32,8 @@ export const Software = () => {
         >
           レトロスペクティブに使用するために開発しました。議題に集中できるように、シンプルな機能群、キャンパスサイズ、ペンの太さなどにこだわりました。
           <br />
-          <Label>使用技術</Label>Express / Socket.IO / Redis
+          <UsedTech />
+          Express / Socket.IO / Redis
         </SoftwareCard>
         <SoftwareCard
           softwareId="dpo"
@@ -37,7 +45,8 @@ export const Software = () => {
         >
           権限移譲を促進するために開発しました。デリゲーションポーカーはマネジメント3.0でも紹介されているポピュラーなゲームです。
           <br />
-          <Label>使用技術</Label>Firebase / React
+          <UsedTech />
+          Firebase / React
         </SoftwareCard>
         <SoftwareCard
           softwareId="forward-proxy"
@@ -48,7 +57,8 @@ export const Software = () => {
         >
           在宅ワーク時に開発サーバーのサイトを実機検証するために開発しました。スマホからVPNに接続したPCを経由して開発サーバーにアクセスします。
           <br />
-          <Label>使用技術</Label>Electron
+          <UsedTech />
+          Electron
         </SoftwareCard>
         <SoftwareCard
           softwareId="rest-timer"
@@ -59,7 +69,8 @@ export const Software = () => {
         >
           集中していても休み時間や定時に気づけるように開発しました。全画面で最前列に表示されるのがポイントです。3分前から予告表示もあります。
           <br />
-          <Label>使用技術</Label>Electron
+          <UsedTech />
+          Electron
         </SoftwareCard>
         <SoftwareCard
           softwareId="kari"
@@ -69,7 +80,8 @@ export const Software = () => {
         >
           就職活動でゲーム会社の応募作品として制作したアクションRPGです。
           <br />
-          <Label>使用技術</Label>Visual C++ / DirectX
+          <UsedTech />
+          Visual C++ / DirectX
         </SoftwareCard>
       </div>
     </section>
