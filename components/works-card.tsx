@@ -7,7 +7,7 @@ interface Props {
 
 export const WorksCard = (props: Props) => {
   return (
-    <div className="alert mb-4 shadow-lg">
+    <div className="alert mb-4 rounded-lg shadow-lg">
       <div className="w-full">
         <div>
           <h3 className="text-lg font-bold">{props.summary}</h3>

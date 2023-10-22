@@ -77,7 +77,7 @@ export const Works = () => {
           PHP / Symfony / Apache / JavaScript / MySQL
         </WorksCardItemTech>
       </WorksCard>
-      <WorksCard summary="ファンサイトの機能開発">
+      <WorksCard summary="球団ファンサイトの機能開発">
         <WorksCardItemSpan>2009 - 2010</WorksCardItemSpan>
         <WorksCardItemJob>詳細設計 / 実装 / 単体テスト / 運用</WorksCardItemJob>
         <WorksCardItemTech>
@@ -107,7 +107,7 @@ export const Works = () => {
         </WorksCardItemTech>
       </WorksCard>
       <WorksCard summary="顧客管理システムの新規開発">
-        <WorksCardItemSpan>2018 - 2022</WorksCardItemSpan>
+        <WorksCardItemSpan>2018 - 2023</WorksCardItemSpan>
         <WorksCardItemJob>
           プロトタイピング / 設計 / 実装 / テスト / 運用 / 開発環境整備
         </WorksCardItemJob>
@@ -116,15 +116,16 @@ export const Works = () => {
           CircleCI / Docker / Cloud Foundry / Splunk / Redis / MySQL / Kafka
         </WorksCardItemTech>
       </WorksCard>
-      <WorksCard summary="問い合わせシステムのリニューアル">
-        <WorksCardItemSpan>2019 - 2022</WorksCardItemSpan>
+      <WorksCard summary="問い合わせシステムのリニューアル・機能開発">
+        <WorksCardItemSpan>2019 - 2023</WorksCardItemSpan>
         <WorksCardItemJob>
           設計 / 実装 / テスト / 運用 / 開発環境整備
         </WorksCardItemJob>
         <WorksCardItemTech>
-          TypeScript / React / MobX / NestJS / Jest / Socket.IO / Java / Spring
-          / GitOps / Bitbucket / Jenkins / Docker / Kubernetes / Kustomize /
-          Elastic Stack / Splunk / Redis / MySQL
+          TypeScript / React / Next.js / MobX / zustand / tRPC / NestJS / Jest /
+          Socket.IO / Java / Spring / GitOps / Bitbucket / Jenkins / Docker /
+          Kubernetes / Kustomize / Elastic Stack / Splunk / Redis / MySQL /
+          PractiTest
         </WorksCardItemTech>
       </WorksCard>
     </section>

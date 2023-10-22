@@ -54,7 +54,7 @@ export const Software = () => {
           softwareId="rest-timer"
           name="Rest Timer"
           imageSrc="/image/rest-timer.png"
-          summary="全画面で定時をお知らせする常駐アプリケーション"
+          summary="定時をお知らせする常駐アプリ"
           githubUrl="https://github.com/proyuki02/rest-timer/"
         >
           集中していても休み時間や定時に気づけるように開発しました。全画面で最前列に表示されるのがポイントです。3分前から予告表示もあります。
