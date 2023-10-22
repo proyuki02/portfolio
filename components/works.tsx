@@ -18,17 +18,17 @@ export const Works = () => {
         />
         Works
       </h2>
-      <WorksCard summary="自社製品（医療画像解析・FAX送信・自動音声応答）のカスタマイズ">
+      <WorksCard summary="自社製品（医療画像解析・FAX通信・電話自動応答）のカスタマイズ">
         <WorksCardItemSpan>2000</WorksCardItemSpan>
         <WorksCardItemJob>実装 / 単体テスト</WorksCardItemJob>
         <WorksCardItemTech>Visual C++</WorksCardItemTech>
       </WorksCard>
-      <WorksCard summary="通信データ相互変換システムの機能開発">
+      <WorksCard summary="銀行通信データ相互変換システムの機能開発">
         <WorksCardItemSpan>2001 - 2002</WorksCardItemSpan>
         <WorksCardItemJob>実装 / 単体テスト</WorksCardItemJob>
         <WorksCardItemTech>RS6000 / DB2 / AIX(Unix) / UNIX C</WorksCardItemTech>
       </WorksCard>
-      <WorksCard summary="営業支援システムの機能開発">
+      <WorksCard summary="医薬営業支援システムの機能開発">
         <WorksCardItemSpan>2002 - 2004</WorksCardItemSpan>
         <WorksCardItemJob>実装 / 単体テスト</WorksCardItemJob>
         <WorksCardItemTech>
