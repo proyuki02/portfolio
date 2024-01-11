@@ -106,18 +106,20 @@ export const Works = () => {
           / Zeppelin
         </WorksCardItemTech>
       </WorksCard>
-      <WorksCard summary="顧客管理システムの新規開発">
-        <WorksCardItemSpan>2018 - 2023</WorksCardItemSpan>
+      <WorksCard summary="顧客管理システムの新規開発・運用・リニューアル">
+        <WorksCardItemSpan>2018 - 2024</WorksCardItemSpan>
         <WorksCardItemJob>
           プロトタイピング / 設計 / 実装 / テスト / 運用 / 開発環境整備
         </WorksCardItemJob>
         <WorksCardItemTech>
           TypeScript / React / MobX / Express / Swagger / GitHub Enterprise /
-          CircleCI / Docker / Cloud Foundry / Splunk / Redis / MySQL / Kafka
+          CircleCI / Docker / Cloud Foundry / Splunk / Redis / MySQL / Kafka /
+          Next.js / zustand / tRPC / TypeORM / Vite / Vitest / Kubernetes /
+          Kustomize / Elastic Stack / PractiTest / GitOps / Bitbucket / Jenkins
         </WorksCardItemTech>
       </WorksCard>
       <WorksCard summary="問い合わせシステムのリニューアル・機能開発">
-        <WorksCardItemSpan>2019 - 2023</WorksCardItemSpan>
+        <WorksCardItemSpan>2019 - 2024</WorksCardItemSpan>
         <WorksCardItemJob>
           設計 / 実装 / テスト / 運用 / 開発環境整備
         </WorksCardItemJob>

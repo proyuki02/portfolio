@@ -35,6 +35,7 @@ export const Certification = () => {
               date="2017/08/10"
               name="AWS Certified Solutions Architect - Associate"
             />
+            <CertificationItem date="2023/10/08" name="応用情報技術者試験" />
           </tbody>
         </table>
       </div>
