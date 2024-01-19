@@ -29,7 +29,7 @@ export const Profile = () => {
             <SnsLinkButton
               label="Twitter"
               href="https://twitter.com/proyuki02"
-              src="/image/twitter.png"
+              src="/image/x.svg"
             />
             <SnsLinkButton
               label="GitHub"
