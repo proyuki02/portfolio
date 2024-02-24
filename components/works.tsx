@@ -127,7 +127,7 @@ export const Works = () => {
           TypeScript / React / Next.js / MobX / zustand / tRPC / NestJS / Jest /
           Socket.IO / Java / Spring / GitOps / Bitbucket / Jenkins / Docker /
           Kubernetes / Kustomize / Elastic Stack / Splunk / Redis / MySQL /
-          PractiTest / OpenAI
+          PractiTest / OpenAI API
         </WorksCardItemTech>
       </WorksCard>
     </section>
