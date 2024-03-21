@@ -23,8 +23,8 @@ export const Software = () => {
       </h2>
       <div className="grid gap-8 lg:grid-cols-3">
         <SoftwareCard
-          softwareId="whitebord"
-          name="Whitebord"
+          softwareId="whiteboard"
+          name="Whiteboard"
           imageSrc="/image/whitebord.png"
           summary="レトロスペクティブ専用のホワイトボード"
           demoUrl="https://proyuki02-whiteboard.glitch.me/"
