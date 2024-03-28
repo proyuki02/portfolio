@@ -106,7 +106,7 @@ export const Works = () => {
           / Zeppelin
         </WorksCardItemTech>
       </WorksCard>
-      <WorksCard summary="顧客管理システムの新規開発・運用・リニューアル">
+      <WorksCard summary="顧客管理システムの新規開発">
         <WorksCardItemSpan>2018 - 2024</WorksCardItemSpan>
         <WorksCardItemJob>
           プロトタイピング / 設計 / 実装 / テスト / 運用 / 開発環境整備
