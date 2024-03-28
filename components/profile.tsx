@@ -37,14 +37,14 @@ export const Profile = () => {
               src="/image/github.png"
             />
             <SnsLinkButton
-              label="Qiita"
-              href="https://qiita.com/proyuki02"
-              src="/image/qiita.png"
-            />
-            <SnsLinkButton
               label="Zenn"
               href="https://zenn.dev/proyuki02"
               src="/image/zenn.svg"
+            />
+            <SnsLinkButton
+              label="Qiita"
+              href="https://qiita.com/proyuki02"
+              src="/image/qiita.png"
             />
           </div>
         </div>
