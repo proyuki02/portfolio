@@ -41,7 +41,7 @@ export const SoftwareCard = (props: Props) => {
                     alt={props.name}
                     className="w-full object-contain"
                   />
-                  <p className="py-4">{props.children}</p>
+                  <div className="py-4">{props.children}</div>
                   <div className="modal-action">
                     {props.demoUrl ? (
                       <ActionButton

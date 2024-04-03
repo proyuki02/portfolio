@@ -5,6 +5,10 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  font-family: "Helvetica Neue", Meiryo, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", Arial, sans-serif;
+}
 section {
   display: block;
   padding-top: 90px;
