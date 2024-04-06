@@ -23,10 +23,10 @@ export const Works = () => {
         <WorksCardItemJob>実装 / 単体テスト</WorksCardItemJob>
         <WorksCardItemTech>Visual C++</WorksCardItemTech>
       </WorksCard>
-      <WorksCard summary="コンビニATM⇔銀行通信データ変換ゲートウェイの機能開発">
+      <WorksCard summary="コンビニATM⇔銀行 電文変換ゲートウェイの機能開発">
         <WorksCardItemSpan>2001/04 - 2002/03</WorksCardItemSpan>
         <WorksCardItemJob>実装 / 単体テスト</WorksCardItemJob>
-        <WorksCardItemTech>RS6000 / DB2 / AIX(Unix) / UNIX C</WorksCardItemTech>
+        <WorksCardItemTech>UNIX C / DB2 / RS6000 / AIX(Unix)</WorksCardItemTech>
       </WorksCard>
       <WorksCard summary="MR（医薬営業）業務支援システムの機能開発">
         <WorksCardItemSpan>2002/08 - 2004/06</WorksCardItemSpan>
@@ -69,43 +69,43 @@ export const Works = () => {
         <WorksCardItemSpan>2009/02 - 2009/03</WorksCardItemSpan>
         <WorksCardItemJob>詳細設計 / 実装 / テスト</WorksCardItemJob>
         <WorksCardItemTech>
-          Java / Struts / Mayaa / JavaScript / PostgreSQL / Tomcat
+          Java / JavaScript / Struts / Mayaa / PostgreSQL / Tomcat
         </WorksCardItemTech>
       </WorksCard>
       <WorksCard summary="ECサイトパッケージのカスタマイズ">
         <WorksCardItemSpan>2009/04 - 2009/05</WorksCardItemSpan>
         <WorksCardItemJob>詳細設計 / 実装 / テスト</WorksCardItemJob>
         <WorksCardItemTech>
-          Java / Struts / Mayaa / JavaScript / PostgreSQL / Tomcat
+          Java / JavaScript / Struts / Mayaa / PostgreSQL / Tomcat
         </WorksCardItemTech>
       </WorksCard>
       <WorksCard summary="婚活支援サイトの新規開発">
         <WorksCardItemSpan>2009/06 - 2009/10</WorksCardItemSpan>
         <WorksCardItemJob>要件定義 / 設計 / 実装 / テスト</WorksCardItemJob>
         <WorksCardItemTech>
-          PHP / Symfony / JavaScript / MySQL / Apache
+          PHP / JavaScript / Symfony / MySQL / Apache
         </WorksCardItemTech>
       </WorksCard>
       <WorksCard summary="球団ファンサイトの機能開発">
         <WorksCardItemSpan>2009/11 - 2010/03</WorksCardItemSpan>
         <WorksCardItemJob>詳細設計 / 実装 / テスト</WorksCardItemJob>
         <WorksCardItemTech>
-          PHP / Symfony / JavaScript / MySQL / Apache / Linux
+          PHP / JavaScript / Symfony / MySQL / Apache / Linux
         </WorksCardItemTech>
       </WorksCard>
       <WorksCard summary="ポータルサイト保守">
         <WorksCardItemSpan>2010/04 - 2010/04</WorksCardItemSpan>
         <WorksCardItemJob>設計 / 実装 / テスト</WorksCardItemJob>
         <WorksCardItemTech>
-          Java / Struts / Mojavi / PHP / JavaScript / Tomcat / Apache / Linux
+          Java / PHP / JavaScript / Struts / Mojavi / Tomcat / Apache / Linux
         </WorksCardItemTech>
       </WorksCard>
-      <WorksCard summary="売上レポートバッチ開発">
+      <WorksCard summary="売上レポートバッチの新規開発">
         <WorksCardItemSpan>2010/05 - 2010/05</WorksCardItemSpan>
         <WorksCardItemJob>設計 / 実装 / テスト</WorksCardItemJob>
         <WorksCardItemTech>Java / Spring / Oracle / Linux</WorksCardItemTech>
       </WorksCard>
-      <WorksCard summary="汎用応募受付フォーム開発">
+      <WorksCard summary="汎用応募受付フォームの新規開発">
         <WorksCardItemSpan>2010/06 - 2010/09</WorksCardItemSpan>
         <WorksCardItemJob>要件定義 / 設計 / 実装 / テスト</WorksCardItemJob>
         <WorksCardItemTech>
@@ -118,10 +118,10 @@ export const Works = () => {
           設計 / 実装 / テスト / 運用 / 開発環境整備
         </WorksCardItemJob>
         <WorksCardItemTech>
-          Hadoop / Hive / Bash script / Perl / Java / Spring / SAStruts /
-          Velocity / Jersey / Ruby / Sinatra / Slim / Sass / jQuery / Bitbucket
-          / Jenkins / Cloud Foundry / Splunk / MySQL / Exadata / Infomix / Derby
-          / Systemwalker / Linux
+          Java / JavaScript / Ruby / Perl / Bash script / Hadoop / Hive / Spring
+          / SAStruts / Velocity / Jersey / Sinatra / Slim / Sass / jQuery /
+          MySQL / Exadata / Infomix / Derby / Systemwalker / Cloud Foundry /
+          Jenkins / Splunk / Bitbucket / Linux
         </WorksCardItemTech>
       </WorksCard>
       <WorksCard summary="ECモール運用ツールのDBマイグレーション">
@@ -137,9 +137,9 @@ export const Works = () => {
           プロトタイピング / 設計 / 実装 / テスト / 運用 / 開発環境整備
         </WorksCardItemJob>
         <WorksCardItemTech>
-          React / Flow / Redux / Java / Spring / Swagger / Bitbucket / Jenkins /
-          Cloud Foundry / Splunk / MySQL / Oracle / Flyway / Kafka / PowerCenter
-          / Zeppelin / Linux
+          Java / JavaScript / React / Redux / Flow / Spring / Swagger / Flyway /
+          PowerCenter / Kafka / MySQL / Oracle / Cloud Foundry / Splunk /
+          Zeppelin / Jenkins / Bitbucket / Linux
         </WorksCardItemTech>
       </WorksCard>
       <WorksCard summary="顧客管理システムの新規開発">
@@ -148,10 +148,11 @@ export const Works = () => {
           プロトタイピング / 設計 / 実装 / テスト / 運用 / 開発環境整備
         </WorksCardItemJob>
         <WorksCardItemTech>
-          TypeScript / React / MobX / Express / Swagger / GitHub Enterprise /
-          CircleCI / Docker / Cloud Foundry / Splunk / Redis / MySQL / Kafka /
-          Next.js / zustand / tRPC / TypeORM / Vite / Vitest / Kubernetes /
-          Elastic Stack / PractiTest / GitOps / Bitbucket / Jenkins / Linux
+          TypeScript / JavaScript / React / Next.js / Express / MobX / zustand /
+          tRPC / TypeORM / Vite / Vitest / Kafka / Redis / MySQL / Swagger /
+          GitHub Enterprise / CircleCI / Cloud Foundry / Docker / Kubernetes /
+          Splunk / Elastic Stack / PractiTest / GitOps / Jenkins / Bitbucket /
+          Nginx / Linux
         </WorksCardItemTech>
       </WorksCard>
       <WorksCard summary="問い合わせシステムのリニューアル・機能開発">
@@ -160,10 +161,10 @@ export const Works = () => {
           設計 / 実装 / テスト / 運用 / 開発環境整備
         </WorksCardItemJob>
         <WorksCardItemTech>
-          TypeScript / React / Next.js / MobX / zustand / tRPC / NestJS / Jest /
-          Socket.IO / Java / Spring / GitOps / Bitbucket / Jenkins / Docker /
-          Kubernetes / Elastic Stack / Splunk / Redis / MySQL / PractiTest /
-          OpenAI API / Linux
+          TypeScript / JavaScript / Java / React / Next.js / NestJS / Spring /
+          MobX / zustand / Socket.IO / tRPC / Jest / OpenAI API / Redis / MySQL
+          / Docker / Kubernetes / GitOps / Splunk / Elastic Stack / PractiTest /
+          Jenkins / Bitbucket / Nginx / Apache / Linux
         </WorksCardItemTech>
       </WorksCard>
     </section>

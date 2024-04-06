@@ -17,7 +17,7 @@ export const Profile = () => {
         </figure>
         <div className="card-body">
           <h2 className="card-title text-3xl font-bold">
-            Hello! I am KAZUYUKI TAMURA
+            Hello! I am Kazuyuki Tamura
           </h2>
           <ul className="m-4 list-disc">
             <li>誕生日: 1981年1月10日 ({age}歳)</li>
