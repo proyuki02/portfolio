@@ -35,7 +35,7 @@ export const Works = () => {
           Visual C++ / ASP / VBA / SQL Server
         </WorksCardItemTech>
       </WorksCard>
-      <WorksCard summary="東北文庫（書籍販売サイト）の制作･運営">
+      <WorksCard summary="東北文庫（書籍販売サイト）の開発･運営">
         <WorksCardItemSpan>2004/08 - 2006/06</WorksCardItemSpan>
         <WorksCardItemJob>
           要件定義 / 設計 / 実装 / テスト / 運用
