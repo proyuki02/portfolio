@@ -151,8 +151,8 @@ export const Works = () => {
           TypeScript / JavaScript / React / Next.js / Express / MobX / zustand /
           tRPC / TypeORM / Vite / Vitest / Kafka / Redis / MySQL / Swagger /
           GitHub Enterprise / CircleCI / Cloud Foundry / Docker / Kubernetes /
-          Splunk / Elastic Stack / PractiTest / GitOps / Jenkins / Bitbucket /
-          Nginx / Linux
+          Splunk / Elastic Stack / GitOps / Jenkins / Bitbucket / Nginx / Linux
+          / PractiTest / Figma
         </WorksCardItemTech>
       </WorksCard>
       <WorksCard summary="問い合わせシステムのリニューアル・機能開発">
@@ -163,8 +163,8 @@ export const Works = () => {
         <WorksCardItemTech>
           TypeScript / JavaScript / Java / React / Next.js / NestJS / Spring /
           MobX / zustand / Socket.IO / tRPC / Jest / OpenAI API / Redis / MySQL
-          / Docker / Kubernetes / GitOps / Splunk / Elastic Stack / PractiTest /
-          Jenkins / Bitbucket / Nginx / Apache / Linux
+          / Docker / Kubernetes / GitOps / Splunk / Elastic Stack / Jenkins /
+          Bitbucket / Nginx / Apache / Linux / PractiTest / Figma
         </WorksCardItemTech>
       </WorksCard>
     </section>
