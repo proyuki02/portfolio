@@ -156,7 +156,7 @@ export const Works = () => {
         </WorksCardItemTech>
       </WorksCard>
       <WorksCard summary="問い合わせシステムのリニューアル・機能開発">
-        <WorksCardItemSpan>2019/03 - now</WorksCardItemSpan>
+        <WorksCardItemSpan>2019/03 - 2024/06</WorksCardItemSpan>
         <WorksCardItemJob>
           設計 / 実装 / テスト / 運用 / 開発環境整備
         </WorksCardItemJob>
@@ -164,6 +164,30 @@ export const Works = () => {
           TypeScript / JavaScript / Java / React / Next.js / NestJS / Spring /
           MobX / zustand / Socket.IO / tRPC / Jest / OpenAI API / Redis / MySQL
           / Docker / Kubernetes / GitOps / Splunk / Elastic Stack / Jenkins /
+          Bitbucket / Nginx / Apache / Linux / PractiTest / Figma /
+          microservices
+        </WorksCardItemTech>
+      </WorksCard>
+      <WorksCard summary="データウェアハウスのマイグレーション">
+        <WorksCardItemSpan>2024/07 - 2025/06</WorksCardItemSpan>
+        <WorksCardItemJob>
+          設計 / 実装 / テスト / 運用 / 開発環境整備
+        </WorksCardItemJob>
+        <WorksCardItemTech>
+          Java / JavaScript / Ruby / Python / Bash script / Hadoop / Hive /
+          Spring / SAStruts / Velocity / Sinatra / Slim / GCS / BigQuery / MySQL
+          / Exadata / Systemwalker / Jenkins / Bitbucket / Linux
+        </WorksCardItemTech>
+      </WorksCard>
+      <WorksCard summary="問い合わせシステムの機能開発・運用">
+        <WorksCardItemSpan>2025/07 - now</WorksCardItemSpan>
+        <WorksCardItemJob>
+          設計 / 実装 / テスト / 運用 / 開発環境整備
+        </WorksCardItemJob>
+        <WorksCardItemTech>
+          TypeScript / JavaScript / Java / React / Next.js / NestJS / MobX /
+          zustand / Socket.IO / tRPC / Jest / Vitest / OpenAI API / Redis /
+          MySQL / Docker / Kubernetes / GitOps / Elastic Stack / Jenkins /
           Bitbucket / Nginx / Apache / Linux / PractiTest / Figma /
           microservices
         </WorksCardItemTech>
