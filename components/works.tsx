@@ -179,7 +179,7 @@ export const Works = () => {
           / Exadata / Systemwalker / Jenkins / Bitbucket / Linux
         </WorksCardItemTech>
       </WorksCard>
-      <WorksCard summary="問い合わせシステムの機能開発・運用">
+      <WorksCard summary="問い合わせシステムの機能開発">
         <WorksCardItemSpan>2025/07 - now</WorksCardItemSpan>
         <WorksCardItemJob>
           設計 / 実装 / テスト / 運用 / 開発環境整備
