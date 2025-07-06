@@ -185,11 +185,10 @@ export const Works = () => {
           設計 / 実装 / テスト / 運用 / 開発環境整備
         </WorksCardItemJob>
         <WorksCardItemTech>
-          TypeScript / JavaScript / Java / React / Next.js / NestJS / MobX /
-          zustand / Socket.IO / tRPC / Jest / Vitest / OpenAI API / Redis /
-          MySQL / Docker / Kubernetes / GitOps / Elastic Stack / Jenkins /
-          Bitbucket / Nginx / Apache / Linux / PractiTest / Figma /
-          microservices
+          TypeScript / React / Next.js / NestJS / MobX / zustand / Socket.IO /
+          tRPC / Vitest / OpenAI API / Redis / MySQL / Docker / Kubernetes /
+          GitOps / Elastic Stack / Jenkins / Bitbucket / Nginx / Apache / Linux
+          / PractiTest / Figma / microservices
         </WorksCardItemTech>
       </WorksCard>
     </section>
